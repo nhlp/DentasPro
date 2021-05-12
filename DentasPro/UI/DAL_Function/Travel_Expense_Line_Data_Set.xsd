@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Travel_Expense_Line_Data_Set" targetNamespace="http://tempuri.org/Travel_Expense_Line_Data_Set.xsd" xmlns:mstns="http://tempuri.org/Travel_Expense_Line_Data_Set.xsd" xmlns="http://tempuri.org/Travel_Expense_Line_Data_Set.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Travel_Expense_Line_Data_Set" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Travel_Expense_Line_Data_Set" msprop:Generator_UserDSName="Travel_Expense_Line_Data_Set">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Travel_Expense_Line" msprop:Generator_TableClassName="Travel_Expense_LineDataTable" msprop:Generator_TableVarName="tableTravel_Expense_Line" msprop:Generator_RowChangedName="Travel_Expense_LineRowChanged" msprop:Generator_TablePropName="Travel_Expense_Line" msprop:Generator_RowDeletingName="Travel_Expense_LineRowDeleting" msprop:Generator_RowChangingName="Travel_Expense_LineRowChanging" msprop:Generator_RowEvHandlerName="Travel_Expense_LineRowChangeEventHandler" msprop:Generator_RowDeletedName="Travel_Expense_LineRowDeleted" msprop:Generator_RowClassName="Travel_Expense_LineRow" msprop:Generator_UserTableName="Travel_Expense_Line" msprop:Generator_RowEvArgName="Travel_Expense_LineRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Expense_Type_Obj_Id" msdata:Caption="Harcama Türü" msprop:Generator_ColumnVarNameInTable="columnExpense_Type_Obj_Id" msprop:Generator_ColumnPropNameInRow="Expense_Type_Obj_Id" msprop:Generator_ColumnPropNameInTable="Expense_Type_Obj_IdColumn" msprop:Generator_UserColumnName="Expense_Type_Obj_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Transportation_Start_Place" msdata:Caption="Ulaşım Başlangıç Yeri" msprop:Generator_ColumnVarNameInTable="columnTransportation_Start_Place" msprop:Generator_ColumnPropNameInRow="Transportation_Start_Place" msprop:Generator_ColumnPropNameInTable="Transportation_Start_PlaceColumn" msprop:Generator_UserColumnName="Transportation_Start_Place" type="xs:string" minOccurs="0" />
+              <xs:element name="Transport_Start_Time" msdata:Caption="Ulaşım Başlama Tarihi" msprop:Generator_ColumnVarNameInTable="columnTransport_Start_Time" msprop:Generator_ColumnPropNameInRow="Transport_Start_Time" msprop:Generator_ColumnPropNameInTable="Transport_Start_TimeColumn" msprop:Generator_UserColumnName="Transport_Start_Time" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Transportation_Destination_Place" msdata:Caption="Ulaşımın Bittiği Yer" msprop:Generator_ColumnVarNameInTable="columnTransportation_Destination_Place" msprop:Generator_ColumnPropNameInRow="Transportation_Destination_Place" msprop:Generator_ColumnPropNameInTable="Transportation_Destination_PlaceColumn" msprop:Generator_UserColumnName="Transportation_Destination_Place" type="xs:string" minOccurs="0" />
+              <xs:element name="Transport_End_Time" msdata:Caption="Ulaşımın Bittiği Tarih" msprop:Generator_ColumnVarNameInTable="columnTransport_End_Time" msprop:Generator_ColumnPropNameInRow="Transport_End_Time" msprop:Generator_ColumnPropNameInTable="Transport_End_TimeColumn" msprop:Generator_UserColumnName="Transport_End_Time" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Transportation_Amount" msdata:Caption="Ulaşım Tutarı" msprop:Generator_ColumnVarNameInTable="columnTransportation_Amount" msprop:Generator_ColumnPropNameInRow="Transportation_Amount" msprop:Generator_ColumnPropNameInTable="Transportation_AmountColumn" msprop:Generator_UserColumnName="Transportation_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Layover_Place" msdata:Caption="Konaklama Yeri" msprop:Generator_ColumnVarNameInTable="columnLayover_Place" msprop:Generator_ColumnPropNameInRow="Layover_Place" msprop:Generator_ColumnPropNameInTable="Layover_PlaceColumn" msprop:Generator_UserColumnName="Layover_Place" type="xs:string" minOccurs="0" />
+              <xs:element name="Layover_Amount" msdata:Caption="Konaklama Tutarı" msprop:Generator_ColumnVarNameInTable="columnLayover_Amount" msprop:Generator_ColumnPropNameInRow="Layover_Amount" msprop:Generator_ColumnPropNameInTable="Layover_AmountColumn" msprop:Generator_UserColumnName="Layover_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Layover_Time" msdata:Caption="Konaklama Tarihi" msprop:Generator_ColumnVarNameInTable="columnLayover_Time" msprop:Generator_ColumnPropNameInRow="Layover_Time" msprop:Generator_ColumnPropNameInTable="Layover_TimeColumn" msprop:Generator_UserColumnName="Layover_Time" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Food_Amount" msdata:Caption="Yiyecek Tutarı" msprop:Generator_ColumnVarNameInTable="columnFood_Amount" msprop:Generator_ColumnPropNameInRow="Food_Amount" msprop:Generator_ColumnPropNameInTable="Food_AmountColumn" msprop:Generator_UserColumnName="Food_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Feeding_Time" msdata:Caption="Yemek Tarihi" msprop:Generator_ColumnVarNameInTable="columnFeeding_Time" msprop:Generator_ColumnPropNameInRow="Feeding_Time" msprop:Generator_ColumnPropNameInTable="Feeding_TimeColumn" msprop:Generator_UserColumnName="Feeding_Time" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Other_Amount" msdata:Caption="Diğer Tutar" msprop:Generator_ColumnVarNameInTable="columnOther_Amount" msprop:Generator_ColumnPropNameInRow="Other_Amount" msprop:Generator_ColumnPropNameInTable="Other_AmountColumn" msprop:Generator_UserColumnName="Other_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Row_Amount" msdata:Caption="Satır Toplamı" msprop:Generator_ColumnVarNameInTable="columnRow_Amount" msprop:Generator_ColumnPropNameInRow="Row_Amount" msprop:Generator_ColumnPropNameInTable="Row_AmountColumn" msprop:Generator_UserColumnName="Row_Amount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

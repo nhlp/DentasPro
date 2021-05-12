@@ -1,0 +1,10 @@
+﻿
+     * Ekranda gösterilecekler sadece bu form'un DB'deki karşılığı değildir.
+     * Bu form'un tablosundaki FK alanlar üzerinden bütün dataya ulaşıp gösterebiliriz.
+     * Eğer harcama tipi vasıta olur ise sadece vasıta masrafları ile ilgili kontroller görünsün.
+     * Diğer harcama tipleri içinde aynı şey geçerli olsun.
+     * Tipler:
+     *  Ulaşım : Transportation
+     *  Konaklama : Layover
+     *  Yemek : Food
+     *  Diğer : Other

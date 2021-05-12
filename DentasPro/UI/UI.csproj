@@ -1,0 +1,868 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8EEC76BF-33C5-4D97-99F7-2D3451C5BC96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dentas_Pro.UI</RootNamespace>
+    <AssemblyName>Dentas_Pro.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Project\Takip\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6C092109914074CAE003483C00A65DDFBA859C03</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>UI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dentas_Pro.DAL">
+      <HintPath>..\DAL\bin\Debug\Dentas_Pro.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="Dentas_Pro.DTO">
+      <HintPath>..\DTO\bin\Debug\Dentas_Pro.DTO.dll</HintPath>
+    </Reference>
+    <Reference Include="Dentas_Takip.Framework">
+      <HintPath>..\Framework\bin\Debug\Dentas_Takip.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.SpellChecker.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v13.1.Wizard, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v13.1.UI, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v13.1.Extensions, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\Base_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\Base_Form.Designer.cs">
+      <DependentUpon>Base_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Change_The_Password_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\Change_The_Password_Form.Designer.cs">
+      <DependentUpon>Change_The_Password_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Forgetten_Password_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\Forgetten_Password_Form.Designer.cs">
+      <DependentUpon>Forgetten_Password_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Login_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\Login_Form.Designer.cs">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daily_Hour_Permit_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Daily_Hour_Permit_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAL_Function\Holiday_Set_.cs">
+      <DependentUpon>Holiday_Set_.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAL_Function\Imaging.cs" />
+    <Compile Include="DAL_Function\Messages.cs" />
+    <Compile Include="DAL_Function\Get_The_Form.cs" />
+    <Compile Include="DAL_Function\Sql_Server_DB_From_FollowUp.cs">
+      <DependentUpon>Sql_Server_DB_From_FollowUp.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DAL_Function\Sql_Server_DB_From_FollowUp.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sql_Server_DB_From_FollowUp.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DAL_Function\Travel_Expense_Line_Data_Set.cs">
+      <DependentUpon>Travel_Expense_Line_Data_Set.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAL_Function\Travel_Expense_Line_Data_Set.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Travel_Expense_Line_Data_Set.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Definition\Expense_Group_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Definition\Expense_Group_Form.Designer.cs">
+      <DependentUpon>Expense_Group_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Definition\Travel_Expense_Type_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Definition\Travel_Expense_Type_Form.Designer.cs">
+      <DependentUpon>Travel_Expense_Type_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Definition\Location_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Definition\Location_Form.Designer.cs">
+      <DependentUpon>Location_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Definition\Travel_Vehicle_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Definition\Travel_Vehicle_Form.Designer.cs">
+      <DependentUpon>Travel_Vehicle_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL_Function\Holiday_Set_.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Holiday_Set_.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FollowUpDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FollowUpDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FollowUpDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FollowUpDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FollowUpDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FollowUpDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FollowUpDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FollowUpDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FollowUpDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FollowUpDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Generator\Generate_Id.cs" />
+    <Compile Include="Geography\Geo_Type.cs" />
+    <Compile Include="Geography\Geo_UCX.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geography\Geo_UCX.Designer.cs">
+      <DependentUpon>Geo_UCX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\DataGridHelper.cs" />
+    <Compile Include="Helper\GridEditDataInPopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helper\GridEditDataInPopupForm.Designer.cs">
+      <DependentUpon>GridEditDataInPopupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Text_Replacer.cs" />
+    <Compile Include="Mail\Send_An_E_Mail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\Send_An_E_Mail.Designer.cs">
+      <DependentUpon>Send_An_E_Mail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Activity_Insert_PopUp_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Activity_Insert_PopUp_Form.Designer.cs">
+      <DependentUpon>Activity_Insert_PopUp_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Annual_Permit_List_Form_ShortCut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Annual_Permit_List_Form_ShortCut.Designer.cs">
+      <DependentUpon>Annual_Permit_List_Form_ShortCut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\History_Of_Annual_Premit_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\History_Of_Annual_Premit_Form.Designer.cs">
+      <DependentUpon>History_Of_Annual_Premit_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Add_Annual_Permit_Help_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Add_Annual_Permit_Help_Form.Designer.cs">
+      <DependentUpon>Add_Annual_Permit_Help_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Who_Is_Vacation_List_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Who_Is_Vacation_List_Form.Designer.cs">
+      <DependentUpon>Who_Is_Vacation_List_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Annual_Permit_List_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Annual_Permit_List_Form.Designer.cs">
+      <DependentUpon>Annual_Permit_List_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Annual_Permit_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Annual_Permit_Form.Designer.cs">
+      <DependentUpon>Annual_Permit_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Holiday_Set_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Holiday_Set_Form.Designer.cs">
+      <DependentUpon>Holiday_Set_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Add_Annual_Permit_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Add_Annual_Permit_Form.Designer.cs">
+      <DependentUpon>Add_Annual_Permit_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Permit_Knowledge_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Permit_Knowledge_Form.Designer.cs">
+      <DependentUpon>Permit_Knowledge_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Daily_Hour_Permit_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Daily_Hour_Permit_Form.Designer.cs">
+      <DependentUpon>Daily_Hour_Permit_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Daily_Hour_GridControl.cs" />
+    <Compile Include="Permit\Daily_Hour_Permit_List_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Daily_Hour_Permit_List_Form.Designer.cs">
+      <DependentUpon>Daily_Hour_Permit_List_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Permit_Approval_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Permit_Approval_Form.Designer.cs">
+      <DependentUpon>Permit_Approval_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Definition\Permit_Reason_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Definition\Permit_Reason_Form.Designer.cs">
+      <DependentUpon>Permit_Reason_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Waiting_Annual_Approval_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Waiting_Annual_Approval_Form.Designer.cs">
+      <DependentUpon>Waiting_Annual_Approval_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit\Wating_Approval_List_Form_Old.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permit\Wating_Approval_List_Form_Old.Designer.cs">
+      <DependentUpon>Wating_Approval_List_Form_Old.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Recycle\Recycle_Accounting_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recycle\Recycle_Accounting_Form.Designer.cs">
+      <DependentUpon>Recycle_Accounting_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Annual_Permit_Used_Unused_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Annual_Permit_Used_Unused_Form.Designer.cs">
+      <DependentUpon>Annual_Permit_Used_Unused_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Staff_Rest_Permit_List_Form_Graphic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Staff_Rest_Permit_List_Form_Graphic.Designer.cs">
+      <DependentUpon>Staff_Rest_Permit_List_Form_Graphic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Staff_Rest_Permit_List_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Staff_Rest_Permit_List_Form.Designer.cs">
+      <DependentUpon>Staff_Rest_Permit_List_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rule_For_User\Inserted_Staff_Is_Manager.cs" />
+    <Compile Include="Travel\Travel_Action_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Travel\Travel_Action_Form.Designer.cs">
+      <DependentUpon>Travel_Action_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Travel\Travel_Approval_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Travel\Travel_Approval_Form.Designer.cs">
+      <DependentUpon>Travel_Approval_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Travel\Travel_Expense_List_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Travel\Travel_Expense_List_Form.Designer.cs">
+      <DependentUpon>Travel_Expense_List_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Travel\Travel_Request_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Travel\Travel_Request_Form.Designer.cs">
+      <DependentUpon>Travel_Request_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Travel\Travel_Expense_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Travel\Travel_Expense_Form.Designer.cs">
+      <DependentUpon>Travel_Expense_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Travel\Travel_Request_List_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Travel\Travel_Request_List_Form.Designer.cs">
+      <DependentUpon>Travel_Request_List_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\Authorization_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\Authorization_Form.Designer.cs">
+      <DependentUpon>Authorization_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\User_Action_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\User_Action_Form.Designer.cs">
+      <DependentUpon>User_Action_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\User_Form_Old.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\User_Form_Old.Designer.cs">
+      <DependentUpon>User_Form_Old.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\User_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\User_Form.Designer.cs">
+      <DependentUpon>User_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\User_List_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\User_List_Form.Designer.cs">
+      <DependentUpon>User_List_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\User_List_Form_Old.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\User_List_Form_Old.Designer.cs">
+      <DependentUpon>User_List_Form_Old.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Definition\Department_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Definition\Department_Form.Designer.cs">
+      <DependentUpon>Department_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMDIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMDIForm.Designer.cs">
+      <DependentUpon>MainMDIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Definition\Title_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Definition\Title_Form.Designer.cs">
+      <DependentUpon>Title_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinControl\FuGridControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinControl\FuGridControl.Designer.cs">
+      <DependentUpon>FuGridControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Base\Base_Form.resx">
+      <DependentUpon>Base_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\Change_The_Password_Form.resx">
+      <DependentUpon>Change_The_Password_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\Forgetten_Password_Form.resx">
+      <DependentUpon>Forgetten_Password_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\Login_Form.resx">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geography\Geo_UCX.resx">
+      <DependentUpon>Geo_UCX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helper\GridEditDataInPopupForm.resx">
+      <DependentUpon>GridEditDataInPopupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Activity_Insert_PopUp_Form.resx">
+      <DependentUpon>Activity_Insert_PopUp_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Annual_Permit_Form.resx">
+      <DependentUpon>Annual_Permit_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Annual_Permit_List_Form_ShortCut.resx">
+      <DependentUpon>Annual_Permit_List_Form_ShortCut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\History_Of_Annual_Premit_Form.resx">
+      <DependentUpon>History_Of_Annual_Premit_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Add_Annual_Permit_Help_Form.resx">
+      <DependentUpon>Add_Annual_Permit_Help_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Who_Is_Vacation_List_Form.resx">
+      <DependentUpon>Who_Is_Vacation_List_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Annual_Permit_List_Form.resx">
+      <DependentUpon>Annual_Permit_List_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Holiday_Set_Form.resx">
+      <DependentUpon>Holiday_Set_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Add_Annual_Permit_Form.resx">
+      <DependentUpon>Add_Annual_Permit_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Permit_Knowledge_Form.resx">
+      <DependentUpon>Permit_Knowledge_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Daily_Hour_Permit_Form.resx">
+      <DependentUpon>Daily_Hour_Permit_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Waiting_Annual_Approval_Form.resx">
+      <DependentUpon>Waiting_Annual_Approval_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Wating_Approval_List_Form_Old.resx">
+      <DependentUpon>Wating_Approval_List_Form_Old.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recycle\Recycle_Accounting_Form.resx">
+      <DependentUpon>Recycle_Accounting_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Annual_Permit_Used_Unused_Form.resx">
+      <DependentUpon>Annual_Permit_Used_Unused_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Staff_Rest_Permit_List_Form_Graphic.resx">
+      <DependentUpon>Staff_Rest_Permit_List_Form_Graphic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Staff_Rest_Permit_List_Form.resx">
+      <DependentUpon>Staff_Rest_Permit_List_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\Authorization_Form.resx">
+      <DependentUpon>Authorization_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinControl\FuGridControl.resx">
+      <DependentUpon>FuGridControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Daily_Hour_Permit_DataSet.xsc">
+      <DependentUpon>Daily_Hour_Permit_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Daily_Hour_Permit_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Daily_Hour_Permit_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Daily_Hour_Permit_DataSet.xss">
+      <DependentUpon>Daily_Hour_Permit_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DAL_Function\Sql_Server_DB_From_FollowUp.dbml.layout">
+      <DependentUpon>Sql_Server_DB_From_FollowUp.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Definition\Expense_Group_Form.resx">
+      <DependentUpon>Expense_Group_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Definition\Travel_Expense_Type_Form.resx">
+      <DependentUpon>Travel_Expense_Type_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Definition\Location_Form.resx">
+      <DependentUpon>Location_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Definition\Travel_Vehicle_Form.resx">
+      <DependentUpon>Travel_Vehicle_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\Send_An_E_Mail.resx">
+      <DependentUpon>Send_An_E_Mail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Daily_Hour_Permit_List_Form.resx">
+      <DependentUpon>Daily_Hour_Permit_List_Form.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit\Permit_Approval_Form.resx">
+      <DependentUpon>Permit_Approval_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Definition\Permit_Reason_Form.resx">
+      <DependentUpon>Permit_Reason_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Travel\Travel_Action_Form.resx">
+      <DependentUpon>Travel_Action_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Travel\Travel_Approval_Form.resx">
+      <DependentUpon>Travel_Approval_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Travel\Travel_Expense_List_Form.resx">
+      <DependentUpon>Travel_Expense_List_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Travel\Travel_Request_Form.resx">
+      <DependentUpon>Travel_Request_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Travel\Travel_Expense_Form.resx">
+      <DependentUpon>Travel_Expense_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Travel\Travel_Request_List_Form.resx">
+      <DependentUpon>Travel_Request_List_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\User_Action_Form.resx">
+      <DependentUpon>User_Action_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\User_Form.resx">
+      <DependentUpon>User_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\User_Form_Old.resx">
+      <DependentUpon>User_Form_Old.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\User_List_Form.resx">
+      <DependentUpon>User_List_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\User_List_Form_Old.resx">
+      <DependentUpon>User_List_Form_Old.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMDIForm.resx">
+      <DependentUpon>MainMDIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Definition\Department_Form.resx">
+      <DependentUpon>Department_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Definition\Title_Form.resx">
+      <DependentUpon>Title_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DAL_Function\Sql_Server_DB_From_FollowUp.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Sql_Server_DB_From_FollowUp.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DAL_Function\Travel_Expense_Line_Data_Set.xsc">
+      <DependentUpon>Travel_Expense_Line_Data_Set.xsd</DependentUpon>
+    </None>
+    <None Include="DAL_Function\Travel_Expense_Line_Data_Set.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Travel_Expense_Line_Data_Set.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DAL_Function\Travel_Expense_Line_Data_Set.xss">
+      <DependentUpon>Travel_Expense_Line_Data_Set.xsd</DependentUpon>
+    </None>
+    <None Include="DAL_Function\Holiday_Set_.xsc">
+      <DependentUpon>Holiday_Set_.xsd</DependentUpon>
+    </None>
+    <None Include="DAL_Function\Holiday_Set_.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Holiday_Set_.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DAL_Function\Holiday_Set_.xss">
+      <DependentUpon>Holiday_Set_.xsd</DependentUpon>
+    </None>
+    <None Include="FollowUpDataSet.xsc">
+      <DependentUpon>FollowUpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FollowUpDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FollowUpDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FollowUpDataSet.xss">
+      <DependentUpon>FollowUpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FollowUpDataSet1.xsc">
+      <DependentUpon>FollowUpDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FollowUpDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FollowUpDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FollowUpDataSet1.xss">
+      <DependentUpon>FollowUpDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FollowUpDataSet2.xsc">
+      <DependentUpon>FollowUpDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="FollowUpDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FollowUpDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FollowUpDataSet2.xss">
+      <DependentUpon>FollowUpDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="FollowUpDataSet3.xsc">
+      <DependentUpon>FollowUpDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="FollowUpDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FollowUpDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FollowUpDataSet3.xss">
+      <DependentUpon>FollowUpDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="FollowUpDataSet4.xsc">
+      <DependentUpon>FollowUpDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="FollowUpDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FollowUpDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FollowUpDataSet4.xss">
+      <DependentUpon>FollowUpDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="UI_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Employee_32_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee_List_32_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_32_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Temizle_32_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kaydet_buton_32X32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sil_buton_32X32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kapat_buton_32X32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login_Form_Enter_Button.png" />
+    <None Include="Resources\Login_Form_Cancel_Button.png" />
+    <None Include="Resources\Tanım_Tab_32_32.png" />
+    <None Include="Resources\Department_Tab_32_32.png" />
+    <None Include="Resources\Ünvan_Tab_32_32.png" />
+    <None Include="Resources\İzin_tür_Buton_32_32.png" />
+    <None Include="Resources\Lokasyon_Button_32_32.png" />
+    <None Include="Resources\Seyehat_Tab_32_32.png" />
+    <None Include="Resources\Seyahat_Talep_buton_32_32.png" />
+    <None Include="Resources\Harcama_formu_buton_32_32.png" />
+    <None Include="Resources\Harcama_formu_32_32_.png" />
+    <Content Include="Analyze\Travel_Expense_Form.txt" />
+    <Content Include="Analyze\Travel_Request_Form.txt" />
+    <None Include="Resources\Harcama_gurubu_button_32_32.png" />
+    <None Include="Resources\Travel_Vehicle_Bar_button_32_32.png" />
+    <None Include="Resources\Clean_button_32_32.png" />
+    <None Include="Resources\Delete_Grid_Column_Image_V1.png" />
+    <Content Include="Permit\Annual_Permit_Form_Dev_Notes.txt" />
+    <Content Include="Permit\Daily_Hour_Permit_Form_Dev_Notes.txt" />
+    <None Include="Resources\Expense_Form_Bar_button_32_32_.png" />
+    <None Include="Resources\Araclar_ribbon_Page_32_32_.png" />
+    <None Include="Resources\Skin_Bar_button_Item_32_32_.png" />
+    <None Include="Resources\Help_button_32_32_.png" />
+    <None Include="Resources\Ünvan_Tab_32_321.png" />
+    <None Include="Resources\Günlük_Saatlik_İzin_listesi_button_32_32_.png" />
+    <None Include="Resources\Ön_izleme_button_32_32_.png" />
+    <None Include="Resources\Onay_Grup_kontrol.png" />
+    <None Include="Resources\Personel_bilgileri_Grup_kontrol.png" />
+    <None Include="Resources\izin_detayları_grup_kontrol.png" />
+    <None Include="Resources\Yıllık_izin_detay_Group_kontrol_.png" />
+    <None Include="Resources\Yıllık_izin_formu_onay_Group_.png" />
+    <None Include="Resources\Yıllık_izin_İletişim_bilgileri_group.png" />
+    <None Include="Resources\Permit_Knowledge_Bar_button_32_32.png" />
+    <None Include="Resources\Yıllık_izin_listesi_button_32_32_N.png" />
+    <None Include="Resources\İzin_Bilgi_Group_32_32.png" />
+    <None Include="Resources\Yıllık_izin_talep_formu_Personel_bilgileri_group_32_32.png" />
+    <None Include="Resources\Seyahat_Talep_Listesi_buton_32_32.png" />
+    <None Include="Resources\Harcama_Listesi_32_32_.png" />
+    <None Include="Resources\E_Mail_Yolla_button_32_32_.png" />
+    <None Include="Resources\İade_Main_Png_32_32.png" />
+    <None Include="Resources\İade_hesaplama_ekranı_32_32.png" />
+    <None Include="Resources\Departman_Performasn_Rapor_ekranı_Bar_Button.png" />
+    <None Include="Resources\Personel_kalan_izin_button_32_32.png" />
+    <None Include="Resources\Personel_izindemi.png" />
+    <None Include="Resources\forgettten_Password.png" />
+    <None Include="Resources\Birthday_List_Button.png" />
+    <None Include="Resources\Education_Page_.png" />
+    <None Include="Resources\Education_Register_Form_button.png" />
+    <None Include="Resources\Education_List_Button.png" />
+    <None Include="Resources\Authorization_for_Staff.png" />
+    <None Include="Resources\Onay_beleyenler_izinler_Bar_button.png" />
+    <None Include="Resources\Kullanılan_günlük_izinler.png" />
+    <None Include="Resources\holiday_Set_form_bar_button_1.png" />
+    <None Include="Resources\Personele izin ekle.png" />
+    <None Include="Resources\izin_ekleme_Tab_Ikon.png" />
+    <None Include="Resources\Personel_izindemi_bar_button_item.png" />
+    <None Include="Resources\Yillik_izin_ekstre_Bar_Button_Item.png" />
+    <None Include="Resources\History_Of_annual_Permit_form_Ekster_Tab_.png" />
+    <None Include="Resources\History_Of_annual_Permit_form_Personel_bilgileri_Tab_.png" />
+    <Content Include="ToDo_About_Advice.txt" />
+    <Content Include="ToDo_About_Short_Cut_Keys.txt" />
+    <Content Include="ToDo_Nerden_Devam_Ediyorsun.txt" />
+    <Content Include="Travel\Travel_Expense_Form_Dev_Notes.txt" />
+    <Content Include="Travel\Travel_Request_FormDev_Notes.txt" />
+    <Content Include="User\User_Form.txt" />
+    <None Include="Resources\Login_Form_Dentaş_Logo.jpg" />
+    <Content Include="ToDo_About_Dictionary.txt" />
+    <Content Include="todo_About_Workflow.txt" />
+    <None Include="Resources\Yıllık_izin_buton_32_32.png" />
+    <None Include="Resources\Yıllık_İzin_button_32_32.png" />
+    <None Include="Resources\Gunluk_saatlik_Buton_32_32.png" />
+    <None Include="Resources\İzin_Tab_32_32.png" />
+    <None Include="Resources\Personel_Tab_32_32.png" />
+    <Content Include="ToDo_About_Control.txt" />
+    <Content Include="ToDo_About_Form.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Web\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

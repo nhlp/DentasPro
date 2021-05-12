@@ -1,0 +1,9 @@
+﻿
+Form'a karşılık gelen db.tablo'da 
+
+	User ile ilgili sadece "User_Obj_Id" bilgisi tutuluyor --> Çünki user'ın ihityaç duyulan diğer bilgilerine "User_Obj_Id" FK alanı üzerinden user tablosuna gideiler okunacak.
+
+	"Seyahat Tarihi" & "Seyahat Nedeni" gibi bilgiler de tutulmuyor. Bir combodan seyahat formu seçtirlerek ilgili bilgiler seyahat formundan bu form'a aktarılacak.
+
+	"Form_Teslim_Tarihi" alanına da Db'deki Insert_Time datası kullanılacak.
+	

@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Harcama_Listesi_32_32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Harcama_Listesi_32_32_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help_button_32_32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help_button_32_32_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Travel_Vehicle_Bar_button_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Travel_Vehicle_Bar_button_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kapat_buton_32X32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kapat_buton_32X32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete_Grid_Column_Image_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delete_Grid_Column_Image_V1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Personel_kalan_izin_button_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Personel_kalan_izin_button_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Onay_beleyenler_izinler_Bar_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Onay_beleyenler_izinler_Bar_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Departman_Performasn_Rapor_ekranı_Bar_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Departman_Performasn_Rapor_ekranı_Bar_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="İzin_tür_Buton_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\İzin_tür_Buton_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="İzin_Bilgi_Group_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\İzin_Bilgi_Group_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Skin_Bar_button_Item_32_32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Skin_Bar_button_Item_32_32_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Harcama_gurubu_button_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Harcama_gurubu_button_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Onay_Grup_kontrol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Onay_Grup_kontrol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Personel_izindemi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Personel_izindemi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Education_Page_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Education_Page_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Form_Enter_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_Form_Enter_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Department_Tab_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Department_Tab_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clean_button_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clean_button_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Personele izin ekle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Personele izin ekle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Education_Register_Form_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Education_Register_Form_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Personel_bilgileri_Grup_kontrol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Personel_bilgileri_Grup_kontrol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lokasyon_Button_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lokasyon_Button_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yıllık_izin_talep_formu_Personel_bilgileri_group_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yıllık_izin_talep_formu_Personel_bilgileri_group_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yillik_izin_ekstre_Bar_Button_Item" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yillik_izin_ekstre_Bar_Button_Item.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ünvan_Tab_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ünvan_Tab_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yıllık_izin_detay_Group_kontrol_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yıllık_izin_detay_Group_kontrol_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seyehat_Tab_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seyehat_Tab_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Birthday_List_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Birthday_List_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="İade_hesaplama_ekranı_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\İade_hesaplama_ekranı_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ünvan_Tab_32_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ünvan_Tab_32_321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Education_List_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Education_List_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="holiday_Set_form_bar_button_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\holiday_Set_form_bar_button_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kullanılan_günlük_izinler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kullanılan_günlük_izinler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seyahat_Talep_buton_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seyahat_Talep_buton_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sil_buton_32X32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sil_buton_32X32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yıllık_izin_formu_onay_Group_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yıllık_izin_formu_onay_Group_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Expense_Form_Bar_button_32_32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Expense_Form_Bar_button_32_32_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Personel_Tab_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Personel_Tab_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="İzin_Tab_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\İzin_Tab_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="History_Of_annual_Permit_form_Ekster_Tab_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\History_Of_annual_Permit_form_Ekster_Tab_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Araclar_ribbon_Page_32_32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Araclar_ribbon_Page_32_32_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yıllık_izin_İletişim_bilgileri_group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yıllık_izin_İletişim_bilgileri_group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Permit_Knowledge_Bar_button_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Permit_Knowledge_Bar_button_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yıllık_izin_listesi_button_32_32_N" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yıllık_izin_listesi_button_32_32_N.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kaydet_buton_32X32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kaydet_buton_32X32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yıllık_izin_buton_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yıllık_izin_buton_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tanım_Tab_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tanım_Tab_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Authorization_for_Staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Authorization_for_Staff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Harcama_formu_32_32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Harcama_formu_32_32_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Günlük_Saatlik_İzin_listesi_button_32_32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Günlük_Saatlik_İzin_listesi_button_32_32_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yıllık_İzin_button_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yıllık_İzin_button_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Form_Dentaş_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_Form_Dentaş_Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Personel_izindemi_bar_button_item" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Personel_izindemi_bar_button_item.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="izin_ekleme_Tab_Ikon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\izin_ekleme_Tab_Ikon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Temizle_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Temizle_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E_Mail_Yolla_button_32_32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E_Mail_Yolla_button_32_32_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ön_izleme_button_32_32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ön_izleme_button_32_32_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seyahat_Talep_Listesi_buton_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seyahat_Talep_Listesi_buton_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="forgettten_Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forgettten_Password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Employee_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Employee_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Form_Cancel_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_Form_Cancel_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="İade_Main_Png_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\İade_Main_Png_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="izin_detayları_grup_kontrol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\izin_detayları_grup_kontrol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunluk_saatlik_Buton_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gunluk_saatlik_Buton_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="employee_List_32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\employee_List_32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="History_Of_annual_Permit_form_Personel_bilgileri_Tab_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\History_Of_annual_Permit_form_Personel_bilgileri_Tab_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

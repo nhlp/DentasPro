@@ -1,0 +1,6 @@
+﻿
+
+
+Ctrl + K + S -- > Code snippet
+
+Ctrl + K + D -- > Kodu derleyip toparlar.

@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DentasPro" Class="Sql_Server_DB_From_DentasProDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DENTASSQLSRV;Initial Catalog=DentasPro;Persist Security Info=True;User ID=sa" SettingsObjectName="Dentas_Pro.UI.Properties.Settings" SettingsPropertyName="DentasProConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Department" Member="Departments">
+    <Type Name="Department">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.District" Member="Districts">
+    <Type Name="District">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="City_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Expense_Group" Member="Expense_Groups">
+    <Type Name="Expense_Group">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Location" Member="Locations">
+    <Type Name="Location">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Permit" Member="Permits">
+    <Type Name="Permit">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Number_Of_Permit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="User_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Total_Permit_Day" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Permit_Reason" Member="Permit_Reasons">
+    <Type Name="Permit_Reason">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Travel_Expense" Member="Travel_Expenses">
+    <Type Name="Travel_Expense">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="User_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Declaration_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Travel_Request_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Form_Delivery_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Total" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Advance_Received" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Get_Money" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="First_Approval_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Second_Approval_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Third_Approval_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Travel_Expense_Line" Member="Travel_Expense_Lines">
+    <Type Name="Travel_Expense_Line">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Travel_Expense_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Expense_Type_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Transportation_Start_Place" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Transport_Start_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Transportation_Destination_Place" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Transport_End_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Transportation_Amount" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Layover_Place" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Layover_Amount" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Layover_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Food_Amount" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Feeding_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Other_Amount" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Row_Amount" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Travel_Expense_Type" Member="Travel_Expense_Types">
+    <Type Name="Travel_Expense_Type">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Travel_Request" Member="Travel_Requests">
+    <Type Name="Travel_Request">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Travel_User_User_Obj_Id" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Department_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Title_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Place_To_Go" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Travel_Reason" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Expense_Group_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Adnavce" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Travel_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Start_Place" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Destination_Place" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Travel_Vehicle" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Travel_Hour" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="Layover_City_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Layover_Otel" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Layover_Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Layover_Hotel_Enter_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Layover_Hotel_Exit_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="First_Approval_User_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Second_Approval_User_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Third_Approval_User_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fourth_Approval_User_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Approval_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Approval_Situation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Travel_Vehicle" Member="Travel_Vehicles">
+    <Type Name="Travel_Vehicle">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Vehicle_Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.User_Login" Member="User_Logins">
+    <Type Name="User_Login">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Permission" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Full_Name" Type="System.String" DbType="NVarChar(70)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.County" Member="Counties">
+    <Type Name="County">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="City_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="City_Name" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Country" Member="Countries">
+    <Type Name="Country">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Acronym_Double" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="Acronym_Trible" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Phone_Code" Type="System.String" DbType="NVarChar(6) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Neighborhood_District" Member="Neighborhood_Districts">
+    <Type Name="Neighborhood_District">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="District_Name" Type="System.String" DbType="NVarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="Neighborhood_Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Zip_Code" Type="System.String" DbType="NVarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="County_Obj_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="City_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Neighborhood_Little" Member="Neighborhood_Littles">
+    <Type Name="Neighborhood_Little">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="County_Obj_Id" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="City_Obj_Id" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.County_Little" Member="County_Littles">
+    <Type Name="County_Little">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="City_Obj_Id" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.City_Little" Member="City_Littles">
+    <Type Name="City_Little">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Plate_Number" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Name_Up" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Name_Low" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rp_Department_Permit_Usage" Member="Rp_Department_Permit_Usages">
+    <Type Name="Rp_Department_Permit_Usage">
+      <Column Name="Departman" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Toplam_Izin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Kalan_Izin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Staff_Rest_Permit" Member="Staff_Rest_Permits">
+    <Type Name="Staff_Rest_Permit">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Full_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Mail" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Department_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Registration_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Accumulated_Permit_count_Knowledge" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Authorization]" Member="Authorizations">
+    <Type Name="Authorization">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="User_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Form_Name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="OpenUp" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Title" Member="Titles">
+    <Type Name="Title">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Is_Active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Full_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Login_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="User_Photo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Birth_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Birth_Place" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Citizen_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Phone_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cell_Phone_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cell_Phone_Area_Code" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Phone_Number_Area_Code" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="E_Mail" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Registration_Number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Job_Date_Of_Start" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Accumulated_Permit_count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="This_Year_Permit_Count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Assigned_Permit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Permitted_Use" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Department_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Title_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Expense_Group_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Department_Responsible_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Department_Manager_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Holiday_Activity" Member="Holiday_Activities">
+    <Type Name="Holiday_Activity">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Activity_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Activity_Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Activity_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Activity_Date_1" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Annual_Permit" Member="Annual_Permits">
+    <Type Name="Annual_Permit">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="User_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Department_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Title_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Permit_Start_Time" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Permit_End_Time" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="StartUp_Work_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Permit_Reason_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Permit_Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Permit_Start_Hour" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="Permit_End_Hour" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="Accumulated_Permit_count_Knowledge_Data" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Permitted_Use_Knowledge_Data" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Country_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="City_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="County_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Neighbrhood_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address_Descrition" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Phone_Number_1_Area_Code" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="Phone_Number_1" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Phone_Number_2_Area_Code" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="Phone_Number_2" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Department_Manager_Apporoval_Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Department_Responsible_Approval_Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Human_Resource_Approval_Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Department_Chief_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Department_Manager_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Approval_Department_Responsible_Situation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Approval_Department_Manager_Situation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Paraph_Human_Resource_Situation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Wet_Signature_Situation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Wet_Signature_Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Daily_Hour_Permit" Member="Daily_Hour_Permits">
+    <Type Name="Daily_Hour_Permit">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="User_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Department_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Title_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Permit_Start_Time" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Permit_End_Time" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="StartUp_Work_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Permit_Reason_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Permit_Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Permit_Start_Hour" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="Permit_End_Hour" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Department_Manager_Apporoval_Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Department_Responsible_Approval_Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Human_Resource_Approval_Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Department_Chief_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Department_Manager_Obj_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Approval_Department_Responsible_Situation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Approval_Department_Manager_Situation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Paraph_Human_Resource_Situation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Wet_Signature_Situation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Wet_Signature_Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Insert_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Insert_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Update_User" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Update_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.History_Of_Annual_Permit" Member="History_Of_Annual_Permits">
+    <Type Name="History_Of_Annual_Permit">
+      <Column Name="Obj_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="User_Obj_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Permit_Rest" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

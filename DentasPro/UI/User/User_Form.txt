@@ -1,0 +1,13 @@
+﻿
+
+Personel kayıt ekranında;
+
+	İşe Başlama Tarihi dışardan alınmalı
+
+	Yıllara göre izin hak etme gün sayıları hesaplanmalı ve ekranda bilgi olarak yazmalı
+	1	--> 5  = 14 iş günü
+	6	--> 15 = 20 iş günü
+	16	--> ∞  = 26 iş günü
+
+
+		

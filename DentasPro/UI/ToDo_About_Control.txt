@@ -1,0 +1,2 @@
+﻿
+Button Edit : Güncelleme amaçlı alt ekran çağırmak istersen Text Edit kontrolünün "Change Editor Type"ını button edit yap.

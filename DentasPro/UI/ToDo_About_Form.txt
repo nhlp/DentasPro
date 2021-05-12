@@ -1,0 +1,11 @@
+﻿Unutma
+
+Yeni bir form yaptığında;
+		
+	MaximizeBox		: False
+	MinimizeBox		: False
+	StarPosition	: CenterScreen
+	FormBorderStyle : FixedDialog
+	
+	Set et...
+		

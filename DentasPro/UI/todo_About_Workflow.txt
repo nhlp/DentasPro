@@ -1,0 +1,9 @@
+﻿
+
+
+
+
+Personellerin seyehatlerde günlük harcama limitleri kaydedilecek (Title'e göre)
+
+Günlük harcama limiti aşıldığında uyarı verilecek.	
+				

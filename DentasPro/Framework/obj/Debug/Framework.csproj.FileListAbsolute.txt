@@ -1,0 +1,17 @@
+D:\Project\Takip\Source_Code\Dentas_Takip\Framework\bin\Debug\Dentas_Takip.Framework.dll
+D:\Project\Takip\Source_Code\Dentas_Takip\Framework\bin\Debug\Dentas_Takip.Framework.pdb
+D:\Project\Takip\Source_Code\Dentas_Takip\Framework\obj\Debug\Dentas_Takip.Framework.dll
+D:\Project\Takip\Source_Code\Dentas_Takip\Framework\obj\Debug\Dentas_Takip.Framework.pdb
+D:\Project\Takip\Source_Code\Dentas_Takip\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
+C:\Dev_Follow_Up\Framework\bin\Debug\Dentas_Pro.Framework.dll
+C:\Dev_Follow_Up\Framework\bin\Debug\Dentas_Pro.Framework.pdb
+C:\Dev_Follow_Up\Framework\obj\Debug\Dentas_Pro.Framework.dll
+C:\Dev_Follow_Up\Framework\obj\Debug\Dentas_Pro.Framework.pdb
+C:\Dev_Dentas_PRO\Framework\bin\Debug\Dentas_Pro.Framework.dll
+C:\Dev_Dentas_PRO\Framework\bin\Debug\Dentas_Pro.Framework.pdb
+C:\Dev_Dentas_PRO\Framework\obj\Debug\Dentas_Pro.Framework.dll
+C:\Dev_Dentas_PRO\Framework\obj\Debug\Dentas_Pro.Framework.pdb
+C:\DentasPro\Framework\bin\Debug\Dentas_Pro.Framework.dll
+C:\DentasPro\Framework\bin\Debug\Dentas_Pro.Framework.pdb
+C:\DentasPro\Framework\obj\Debug\Dentas_Pro.Framework.dll
+C:\DentasPro\Framework\obj\Debug\Dentas_Pro.Framework.pdb

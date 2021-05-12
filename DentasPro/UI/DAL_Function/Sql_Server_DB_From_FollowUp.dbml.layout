@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Sql_Server_DB_From_DentasPro">
+  <DataContextMoniker Name="/Sql_Server_DB_From_DentasProDataContext" />
+  <nestedChildShapes>
+    <classShape Id="98477293-6297-43d3-bbde-34285b1e52eb" isExpanded="false" absoluteBounds="6.375, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Department" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b4818f5-c837-4e19-a269-9f782e92b593" absoluteBounds="6.39, 0.96, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1f90538d-f7dd-4fbe-be0c-0187ff0797cf" isExpanded="false" absoluteBounds="0.5, 3, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/District" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a1d08308-b3b6-4d85-8bed-111141e12c80" absoluteBounds="0.51499999999999968, 3.46, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8aeda434-f808-48c9-ac25-102de54db578" isExpanded="false" absoluteBounds="0.625, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Expense_Group" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a9f86bb6-fa12-4a48-abc0-86b09b493418" absoluteBounds="0.63999999999999968, 4.085, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1147a871-9afa-455c-b117-2cda941cec88" isExpanded="false" absoluteBounds="0.5, 2.25, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Location" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4121bdca-428d-4deb-9ce8-9b2b84efe521" absoluteBounds="0.51500000000000012, 2.7100000000000009, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="24bb9543-08ca-4dbd-995a-6f871565ff3c" isExpanded="false" absoluteBounds="6.5, 1.25, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Permit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cdfce1af-0663-44d9-94fd-8220c772a8c6" absoluteBounds="6.5150000000000006, 1.71, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b5fc61bc-c37f-4832-8d6d-9ac111e9b916" isExpanded="false" absoluteBounds="6.625, 2.125, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Permit_Reason" />
+      <nestedChildShapes>
+        <elementListCompartment Id="762c147e-6a2f-49f7-81a9-07c9b8a318ea" absoluteBounds="6.6400000000000006, 2.585, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4443cdbe-6f30-42c3-970e-6276a90e446a" isExpanded="false" absoluteBounds="4.25, 4.25, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Travel_Expense" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2fab7e85-98ee-4c23-bbfa-c3342932ba90" absoluteBounds="4.2650000000000006, 4.71, 1.9700000000000002, 2.8370157877604165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="372df40d-5f72-47e9-80ef-8a74bc5b07c2" isExpanded="false" absoluteBounds="6.75, 5.875, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Travel_Expense_Line" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9ad98111-f7f3-47fc-9efe-09e3731c59f8" absoluteBounds="6.765, 6.3350000000000009, 1.9700000000000002, 3.3300577799479165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="08190ccd-c31c-44e3-85d4-1861b900b5d4" isExpanded="false" absoluteBounds="0.625, 4.875, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Travel_Expense_Type" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5999688d-679d-4dfe-9e14-c360aed2c91e" absoluteBounds="0.64000000000000057, 5.3350000000000009, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d2c0aff3-23f3-4400-bb80-8c86a694304f" isExpanded="false" absoluteBounds="6.625, 2.875, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Travel_Request" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e71a5ae-6b18-4968-a881-168a636dee86" absoluteBounds="6.6400000000000006, 3.335, 1.9700000000000002, 4.973531087239583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b157b275-ee83-4415-9ad8-582c737bf5ec" isExpanded="false" absoluteBounds="1.125, 6.5, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Travel_Vehicle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a67a24b3-194a-4f86-80b7-83342bcd7713" absoluteBounds="1.1399999999999997, 6.9600000000000009, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1fa57a23-db6c-4500-95e7-af7c22d0f422" isExpanded="false" absoluteBounds="4.25, 6.375, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/User_Login" />
+      <nestedChildShapes>
+        <elementListCompartment Id="89eadf60-dd25-4672-bb83-9957629a2a29" absoluteBounds="4.2650000000000006, 6.8350000000000009, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7937e42f-dc83-40e6-8fd0-c612f8ee97cc" isExpanded="false" absoluteBounds="6.75, 4.5, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/County" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad235233-c669-485a-a5ec-1ab6d9cb0b95" absoluteBounds="6.7650000000000006, 4.9600000000000009, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b1bd8b8-1533-4c5f-9744-d8d4901a1e29" isExpanded="false" absoluteBounds="6.75, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Country" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ddea0793-6181-42d9-bee3-7c8d826410c6" absoluteBounds="6.7650000000000006, 4.085, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b691e7b8-35cb-476d-8fa2-2cf7107f93ca" isExpanded="false" absoluteBounds="4.375, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Neighborhood_District" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da6c2b1e-e883-4157-917c-49bbd641014f" absoluteBounds="4.3900000000000006, 4.085, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b47e1616-d36d-4210-87d8-a86103f85537" isExpanded="false" absoluteBounds="0.75, 4.25, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Neighborhood_Little" />
+      <nestedChildShapes>
+        <elementListCompartment Id="65019693-d190-401a-86fe-2486ffecf8e2" absoluteBounds="0.76500000000000012, 4.71, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="935113d2-07ce-440b-bdce-373abb7080e9" isExpanded="false" absoluteBounds="6.75, 5.25, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/County_Little" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ccd82ff5-13ad-48e9-b8be-04772b9b4153" absoluteBounds="6.765, 5.7100000000000009, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f68f87bc-7fe7-4d1e-b254-8e616ef409fd" isExpanded="false" absoluteBounds="1, 5.625, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/City_Little" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c4cfa8c4-7dff-4824-96d2-97fc046d0658" absoluteBounds="1.0150000000000006, 6.0850000000000009, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f5037c57-df5d-4f41-bac1-872710c3116c" isExpanded="false" absoluteBounds="4.375, 2.125, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Rp_Department_Permit_Usage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97e3033d-2501-4b0b-a2ad-0b7674a8223a" absoluteBounds="4.3900000000000006, 2.585, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0020a7d4-a061-412e-9a9b-36dc8c31c414" isExpanded="false" absoluteBounds="4.25, 1.375, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Staff_Rest_Permit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="51a9e8ce-9b74-4766-b579-e7b6c68d1d5f" absoluteBounds="4.265, 1.835, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="86b8066d-78d6-4631-a496-2a8edb96c597" isExpanded="false" absoluteBounds="4.375, 2.875, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Authorization" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7bafacc-1ea4-4969-b967-217da5a8fe3a" absoluteBounds="4.39, 3.335, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="15f70b85-0e12-4231-805b-fb673e41d940" isExpanded="false" absoluteBounds="4.25, 5, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Title" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1cd687e9-872b-4676-9b5f-21c8854a0ddc" absoluteBounds="4.265, 5.46, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0a06f209-a5ec-40ed-979b-765c133a6a8f" isExpanded="false" absoluteBounds="4.125, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad3ca4e8-cb20-4db4-9bcb-1e07245bfbe1" absoluteBounds="4.1400000000000006, 0.96, 1.9700000000000002, 5.466573079427083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="93c4d725-e9fb-4d52-b85f-1dd616599cd2" isExpanded="false" absoluteBounds="2.625, 2.625, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Holiday_Activity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4c6b5e92-805e-45c7-9d89-23a1e309a3ed" absoluteBounds="2.64, 3.085, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a150c02d-74b0-4a8f-9258-05d87627a082" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Annual_Permit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b5c3e669-bdc0-4ce8-80e4-792f938dfb57" absoluteBounds="0.515, 0.96, 1.9700000000000002, 6.2883097330729161" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3c8e9183-a824-4c44-a7a9-e49d3f67f21d" isExpanded="false" absoluteBounds="0.5, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/Daily_Hour_Permit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c0ded96-d863-4c95-811b-6443f5f102d3" absoluteBounds="0.51500000000000012, 1.585, 1.9700000000000002, 4.480489095052083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="50a58bd1-7d4e-4382-a3e2-0190121ef429" isExpanded="false" absoluteBounds="4.375, 5.625, 2, 0.45">
+      <DataClassMoniker Name="/Sql_Server_DB_From_DentasProDataContext/History_Of_Annual_Permit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cbf284ff-5170-4ae5-8c91-a8ff010c6fc9" absoluteBounds="4.39, 6.085, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

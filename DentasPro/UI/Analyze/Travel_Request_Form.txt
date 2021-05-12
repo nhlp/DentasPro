@@ -1,0 +1,5 @@
+﻿
+ Seyahat detayları iel konaklama detayları aynı girdde olacak
+ Seyahat detaylarındaki "Nereden" & "Nereye" olacak konaklamadaki "Nerede" olamayacak
+ Gereksiz kolon. Personol zaten seyahat ettiği şehirdeki bir otelde kalacak. Tekrar bir
+ şehir seçtirmek gereksiz.

@@ -1,0 +1,4 @@
+﻿
+Onay Mekanizması:
+
+Bu form'da "Onay Durumu" adlı bir kontol olacak ve edit'i false olacak. İlgili kişi onayladığında "Onay Durumu" kontrol'ü "Onaylandı" olarak set olacak.

@@ -1,0 +1,20 @@
+﻿
+
+Source & Db Adı	 			Ekran Adı
+
+User						Personel
+ 	
+
+
+Liste Methodları Adları:
+	
+	List_the_User()
+	{
+	}
+
+	
+	List_The_Title()
+	{
+	}
+ 
+

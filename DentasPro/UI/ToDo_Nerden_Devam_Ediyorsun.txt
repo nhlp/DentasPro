@@ -1,0 +1,14 @@
+﻿
+
+
+			2015.02.20
+        /* To_Do
+         * Deparman kaydederken yağtın "Sorumlu" ve "Müdür" name insert'leri devre dışı bırak --> 2015.02.25'te yapıldı.
+         * Burdan kişiye bağla sorumlu ve müdürü. Burdan seçildiğinde de yöenticiler departman'a da bağlanmış (departman tablosuna da insert)olsun
+         */
+
+
+
+		 /*2015.02.25*/
+		 günlük saatlik izin formunda departman yöneticisi ve müdrünü ekrana doldur.
+		 yine yanı formda onay mekanizmasını yap.

@@ -1,0 +1,414 @@
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Base.Base_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Base.Login_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Helper.GridEditDataInPopupForm.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.WinControl.FuGridControl.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Definition.Expense_Group_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Definition.Travel_Expense_Type_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Definition.Location_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Definition.Travel_Vehicle_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Mail.Send_An_E_Mail.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.Annual_Permit_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.Daily_Hour_Permit_List_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.Permit_Approval_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.Permit_Reason_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Travel.Travel_Action_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Travel.Travel_Approval_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Travel.Travel_Expense_Help_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Travel.Travel_Expense_List_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Travel.Travel_Request_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Travel.Travel_Expense_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Travel.Travel_Request_List_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.User_Action_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.User_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.User_Form_Old.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.User_List_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.User_List_Form_Old.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.MainMDIForm.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Properties.Resources.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.Department_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.Title_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.exe.licenses
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\bin\Debug\Dentas_Takip.UI.exe.config
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\bin\Debug\Dentas_Takip.UI.exe
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\bin\Debug\Dentas_Takip.UI.pdb
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\bin\Debug\Dentas_Takip.DAL.dll
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\bin\Debug\Dentas_Takip.DTO.dll
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\bin\Debug\Dentas_Takip.Framework.dll
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\bin\Debug\Dentas_Takip.DAL.pdb
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\bin\Debug\Dentas_Takip.DTO.pdb
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\bin\Debug\Dentas_Takip.Framework.pdb
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.exe
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.pdb
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.Permit.Daily_Hour_Permit_Form.resources
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\bin\Debug\Dentas_Takip.UI.exe.manifest
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\bin\Debug\Dentas_Takip.UI.application
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.exe.manifest
+D:\Project\Takip\Source_Code\Dentas_Takip\UI\obj\x86\Debug\Dentas_Takip.UI.application
+D:\Project\Takip\Source_Code\Deployment\UI\bin\Debug\Dentas_Takip.UI.exe.config
+D:\Project\Takip\Source_Code\Deployment\UI\obj\x86\Debug\Dentas_Takip.UI.exe
+D:\Project\Takip\Source_Code\Deployment\UI\obj\x86\Debug\Dentas_Takip.UI.pdb
+C:\Dev_Follow_Up\UI\bin\Debug\Dentas_Pro.UI.exe
+C:\Dev_Follow_Up\UI\bin\Debug\Dentas_Pro.UI.exe.config
+C:\Dev_Follow_Up\UI\bin\Debug\Dentas_Pro.UI.exe.manifest
+C:\Dev_Follow_Up\UI\bin\Debug\Dentas_Pro.UI.application
+C:\Dev_Follow_Up\UI\bin\Debug\Dentas_Pro.DAL.dll
+C:\Dev_Follow_Up\UI\bin\Debug\Dentas_Pro.DTO.dll
+C:\Dev_Follow_Up\UI\bin\Debug\Dentas_Pro.DAL.pdb
+C:\Dev_Follow_Up\UI\bin\Debug\Dentas_Pro.DTO.pdb
+C:\Dev_Follow_Up\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Base_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Change_The_Password_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Forgetten_Password_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Login_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Geography.Geo_UCX.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Helper.GridEditDataInPopupForm.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_List_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Knowledge_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Recycle.Recycle_Accounting_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Annual_Permit_Used_Unused_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Staff_Rest_Permit_List_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.Authorization_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.WinControl.FuGridControl.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Expense_Group_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Expense_Type_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Location_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Vehicle_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Mail.Send_An_E_Mail.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_Form_Old.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_List_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Approval_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Reason_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Action_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Approval_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_Help_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_List_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_List_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Action_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form_Old.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form_Old.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.MainMDIForm.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.Properties.Resources.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.Department_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.User.Title_Form.resources
+C:\Dev_Follow_Up\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.exe.licenses
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.exe.manifest
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.application
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.exe
+C:\Dev_Follow_Up\UI\obj\x86\Debug\Dentas_Pro.UI.pdb
+C:\Dev_Follow_Up\UI\bin\Debug\Dentas_Pro.UI.pdb
+C:\Dev_Dentas_PRO\UI\bin\Debug\Dentas_Pro.UI.exe
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Base_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Change_The_Password_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Forgetten_Password_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Login_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Geography.Geo_UCX.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Helper.GridEditDataInPopupForm.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Activity_Insert_PopUp_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Who_Is_Vacation_List_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_List_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Holiday_Set_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Add_Annual_Permit_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Knowledge_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Waiting_Annual_Approval_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Wating_Approval_List_Form_Old.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Recycle.Recycle_Accounting_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Annual_Permit_Used_Unused_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Staff_Rest_Permit_List_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Authorization_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.WinControl.FuGridControl.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Expense_Group_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Expense_Type_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Location_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Vehicle_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Mail.Send_An_E_Mail.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_List_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Approval_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Reason_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Action_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Approval_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_List_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_List_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Action_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form_Old.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form_Old.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.MainMDIForm.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Properties.Resources.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Wating_Annual_Approval_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Title_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.exe.licenses
+C:\Dev_Dentas_PRO\UI\bin\Debug\Dentas_Pro.UI.exe.config
+C:\Dev_Dentas_PRO\UI\bin\Debug\Dentas_Pro.UI.exe.manifest
+C:\Dev_Dentas_PRO\UI\bin\Debug\Dentas_Pro.UI.application
+C:\Dev_Dentas_PRO\UI\bin\Debug\Dentas_Pro.DAL.dll
+C:\Dev_Dentas_PRO\UI\bin\Debug\Dentas_Pro.DTO.dll
+C:\Dev_Dentas_PRO\UI\bin\Debug\Dentas_Pro.DAL.pdb
+C:\Dev_Dentas_PRO\UI\bin\Debug\Dentas_Pro.DTO.pdb
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.exe.manifest
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.application
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.exe
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.pdb
+C:\Dev_Dentas_PRO\UI\bin\Debug\Dentas_Pro.UI.pdb
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_List_Form_ShortCut.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.User.History_Of_Annual_Premit_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Add_Annual_Permit_Help_Form.resources
+C:\Dev_Dentas_PRO\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Staff_Rest_Permit_List_Form_Graphic.resources
+\\10.168.0.27\c$\DentasPro\UI\bin\Debug\Dentas_Pro.UI.exe.config
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.exe
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.pdb
+\\10.168.0.27\c$\DentasPro\UI\bin\Debug\Dentas_Pro.UI.exe.manifest
+\\10.168.0.27\c$\DentasPro\UI\bin\Debug\Dentas_Pro.UI.application
+\\10.168.0.27\c$\DentasPro\UI\bin\Debug\Dentas_Pro.UI.exe
+\\10.168.0.27\c$\DentasPro\UI\bin\Debug\Dentas_Pro.DAL.dll
+\\10.168.0.27\c$\DentasPro\UI\bin\Debug\Dentas_Pro.DTO.dll
+\\10.168.0.27\c$\DentasPro\UI\bin\Debug\Dentas_Pro.DAL.pdb
+\\10.168.0.27\c$\DentasPro\UI\bin\Debug\Dentas_Pro.DTO.pdb
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Base_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Change_The_Password_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Forgetten_Password_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Login_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Geography.Geo_UCX.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Helper.GridEditDataInPopupForm.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Activity_Insert_PopUp_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_List_Form_ShortCut.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.History_Of_Annual_Premit_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Add_Annual_Permit_Help_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Who_Is_Vacation_List_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_List_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Holiday_Set_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Add_Annual_Permit_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Knowledge_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Waiting_Annual_Approval_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Wating_Approval_List_Form_Old.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Recycle.Recycle_Accounting_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Annual_Permit_Used_Unused_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Staff_Rest_Permit_List_Form_Graphic.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Staff_Rest_Permit_List_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Authorization_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.WinControl.FuGridControl.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Expense_Group_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Expense_Type_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Location_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Vehicle_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Mail.Send_An_E_Mail.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_List_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Approval_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Reason_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Action_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Approval_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_List_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_List_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Action_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form_Old.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form_Old.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.MainMDIForm.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Properties.Resources.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Wating_Annual_Approval_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Title_Form.resources
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.exe.licenses
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.exe.manifest
+\\10.168.0.27\c$\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.application
+C:\DentasPro\UI\bin\Debug\Dentas_Pro.UI.exe.config
+C:\DentasPro\UI\bin\Debug\Dentas_Pro.UI.exe.manifest
+C:\DentasPro\UI\bin\Debug\Dentas_Pro.UI.application
+C:\DentasPro\UI\bin\Debug\Dentas_Pro.UI.exe
+C:\DentasPro\UI\bin\Debug\Dentas_Pro.DAL.dll
+C:\DentasPro\UI\bin\Debug\Dentas_Pro.DTO.dll
+C:\DentasPro\UI\bin\Debug\Dentas_Pro.DAL.pdb
+C:\DentasPro\UI\bin\Debug\Dentas_Pro.DTO.pdb
+C:\DentasPro\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Base_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Change_The_Password_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Forgetten_Password_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Login_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Geography.Geo_UCX.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Helper.GridEditDataInPopupForm.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Activity_Insert_PopUp_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_List_Form_ShortCut.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.History_Of_Annual_Premit_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Add_Annual_Permit_Help_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Who_Is_Vacation_List_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_List_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Holiday_Set_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Add_Annual_Permit_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Knowledge_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Waiting_Annual_Approval_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Wating_Approval_List_Form_Old.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Recycle.Recycle_Accounting_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Annual_Permit_Used_Unused_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Staff_Rest_Permit_List_Form_Graphic.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Staff_Rest_Permit_List_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Authorization_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.WinControl.FuGridControl.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Expense_Group_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Expense_Type_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Location_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Vehicle_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Mail.Send_An_E_Mail.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_List_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Approval_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Reason_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Action_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Approval_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_List_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_List_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Action_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form_Old.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form_Old.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.MainMDIForm.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Properties.Resources.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Wating_Annual_Approval_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Title_Form.resources
+C:\DentasPro\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.exe.licenses
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.exe.manifest
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.application
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.exe
+C:\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.pdb
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\bin\Debug\Dentas_Pro.UI.exe.config
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.exe
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.pdb
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\bin\Debug\Dentas_Pro.UI.exe.manifest
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\bin\Debug\Dentas_Pro.UI.application
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\bin\Debug\Dentas_Pro.UI.exe
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\bin\Debug\Dentas_Pro.UI.pdb
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\bin\Debug\Dentas_Pro.DAL.dll
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\bin\Debug\Dentas_Pro.DTO.dll
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\bin\Debug\Dentas_Pro.DAL.pdb
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\bin\Debug\Dentas_Pro.DTO.pdb
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Base_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Change_The_Password_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Forgetten_Password_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Login_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Geography.Geo_UCX.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Helper.GridEditDataInPopupForm.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Activity_Insert_PopUp_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_List_Form_ShortCut.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.History_Of_Annual_Premit_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Add_Annual_Permit_Help_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Who_Is_Vacation_List_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_List_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Holiday_Set_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Add_Annual_Permit_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Knowledge_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Waiting_Annual_Approval_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Wating_Approval_List_Form_Old.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Recycle.Recycle_Accounting_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Annual_Permit_Used_Unused_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Staff_Rest_Permit_List_Form_Graphic.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Staff_Rest_Permit_List_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Authorization_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.WinControl.FuGridControl.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Expense_Group_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Expense_Type_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Location_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Vehicle_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Mail.Send_An_E_Mail.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_List_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Approval_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Reason_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Action_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Approval_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_List_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_List_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Action_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form_Old.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form_Old.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.MainMDIForm.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Properties.Resources.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Wating_Annual_Approval_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Title_Form.resources
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.exe.licenses
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.exe.manifest
+C:\Users\administrator.DENTAS\Documents\Visual Studio 2013\Projects\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.application
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\UI.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Base_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Change_The_Password_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Forgetten_Password_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Base.Login_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Geography.Geo_UCX.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Helper.GridEditDataInPopupForm.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Activity_Insert_PopUp_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_List_Form_ShortCut.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.History_Of_Annual_Premit_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Add_Annual_Permit_Help_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Who_Is_Vacation_List_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Annual_Permit_List_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Holiday_Set_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Add_Annual_Permit_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Knowledge_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Waiting_Annual_Approval_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Permit.Wating_Approval_List_Form_Old.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Recycle.Recycle_Accounting_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Annual_Permit_Used_Unused_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Staff_Rest_Permit_List_Form_Graphic.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Report.Staff_Rest_Permit_List_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Authorization_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.WinControl.FuGridControl.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Expense_Group_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Expense_Type_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Location_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Definition.Travel_Vehicle_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Mail.Send_An_E_Mail.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Daily_Hour_Permit_List_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Approval_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Permit_Reason_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Action_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Approval_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_List_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Expense_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Travel.Travel_Request_List_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Action_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_Form_Old.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.User_List_Form_Old.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.MainMDIForm.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.Properties.Resources.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Wating_Annual_Approval_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.User.Title_Form.resources
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.exe.licenses
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.exe
+C:\Users\Dell\Desktop\Test_dentas\DentasPro\UI\obj\x86\Debug\Dentas_Pro.UI.pdb

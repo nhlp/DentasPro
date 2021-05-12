@@ -1,0 +1,4 @@
+﻿
+Yap   : Kod yazarken her adımda save et ve bulid et
+Neden : Eğer sık build erder isen ve hata ile karşılaşır isen hatayı bulma olanağın daha yüksek olur. Yazdığın kodları geriye doğru baktığında
+		hatayı daah çabuk bulabilirsin. Gerçi Studio'ya hata mesajı ile sana fikir veriyor ama bazı hata mesajları pek yardımcı olmuyor.
